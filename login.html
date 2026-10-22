@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TutorTrack — Login</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; }
+        body { background: #f0f4f8; min-height: 100vh; display: flex; align-items: center; justify-content: center; }
+        .login-box { background: white; padding: 40px 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); width: 100%; max-width: 400px; }
+        h1 { text-align: center; color: #0F2B65; margin-bottom: 30px; font-size: 24px; }
+        .logo { text-align: center; font-size: 40px; margin-bottom: 10px; }
+        label { display: block; margin-bottom: 8px; color: #333; font-weight: 500; }
+        input { width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; }
+        button { width: 100%; padding: 12px; background: #0F2B65; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer; }
+        button:hover { background: #1a3c85; }
+        .link { text-align: center; margin-top: 20px; font-size: 14px; }
+        .link a { color: #0F2B65; text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="login-box">
+        <div class="logo">📘</div>
+        <h1>TutorTrack</h1>
+        <form>
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+            
+            <label>Password</label>
+            <input type="password" placeholder="Enter your password">
+            
+            <button type="button" onclick="window.location.href='dashboard.html'">Sign In →</button>
+        </form>
+        <div class="link">
+            Don't have an account? <a href="signup.html">Create Account</a>
+        </div>
+    </div>
+</body>
+</html>
